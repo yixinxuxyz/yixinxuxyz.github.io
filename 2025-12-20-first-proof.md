@@ -15,3 +15,6 @@ We can also write inline math like $ax^2 + bx + c = 0$.
 
 Here is the formula:
 $$x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+### First Youtube video
+{% include video id="l9-iZcZfJK8" provider="youtube" %}
