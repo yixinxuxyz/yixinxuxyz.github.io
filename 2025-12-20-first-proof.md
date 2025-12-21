@@ -17,4 +17,4 @@ Here is the formula:
 $$x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 ### First Youtube video
-{% include video id="l9-iZcZfJK8" provider="youtube" %}
+{% include video.html id="l9-iZcZfJK8" provider="youtube" %}
