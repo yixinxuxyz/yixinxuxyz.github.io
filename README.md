@@ -12,3 +12,7 @@
 |:---:|:---:|
 |2026|2026|
 |[2025](2025ymc.html)|[2025](2025ymc-solutions.html)
+
+#### About me
+
+Hi! I'm Yixin Xu. When I was a child, I was constantly surrounded by kids either trying to convince me math was useless of that math was too hard. 
