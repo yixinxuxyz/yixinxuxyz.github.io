@@ -14,4 +14,4 @@ Hi! I'm Yixin Xu. When I was a child, I was constantly surrounded by kids either
 |[2025](2025ymc.html)|[2025](2025ymc-solutions.html)
 
 #### Music
-* [Test](2025-12-20-first-proof.html)
+* [Brookdale Senior Living Preformance, 2025](musicpage.html)
