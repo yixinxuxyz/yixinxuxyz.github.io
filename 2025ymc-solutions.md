@@ -30,6 +30,10 @@ so that $a+b=280+16=\boxed{296}$. $\square$
 
 **Problem 5**: Recall that the $n$th triangular number is defined to be the sum of the first $n$ positive integers. Similarly, define the $n$th tetrahedral number as the sum of the first $n$ triangular numbers. How many $k$ exist between $1$ and $100$ (inclusive) such that the $k$th tetrahedral number is divisible by $9$? 
 
+*Solution*: The formula for the $n$-th triangular number is well known to be $T_n={{n+1}\choose{2}}=\frac{(n)(n+1)}{2}$. Perhaps less well known is that the $n$-th tetrahedral number is given by $V_n={{n+2}\choose{3}}=\frac{(n)(n+1)(n+2)}{3}$. A proof can be found [here](tetrahedral-numbers.html).
+
+Using this fact, we seek the number of $1\leq n\leq 100$ such that $9|\frac{(k)(k+1)(k+2)}{3}$; this is equivalent to $27|(k)(k+1)(k+2)$. Since $k,k+1,k+2$ must have different remainders $\pmod{3}$, it follows that exactly one of them must be divisble by 3. However, since the entire expression is divisible by $27=3^3$, one of $k,k+1,k+2$ must be a multiple of 27. The only such positive integer $k$ less than 100 are 25, 26, 27, 52, 53, 54, 79, 80, and 81: a total of $\boxed{9}$. $\square$
+
 **Problem 6**: Let $S$ be the list of (**possibly repeated**) rational numbers formed such for each $10$-tuple of nonnegative integers $(a_1,a_2,a_3,\dots,a_{10})$, the number  
 
 $$n=\frac{1}{2^{a_1}3^{a_2}\cdots 11^{a_{10}}}$$
