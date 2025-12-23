@@ -17,6 +17,15 @@ $$\frac{2}{1+\frac{1+0}{1+\frac{1+2}{1+5}}}$$
 
 **Problem 3**: A right triangle has legs of length $20$ and $21$. A circle of radius $2$ rolls about the outside perimeter of the triangle, always keeping tangent at one point. Suppose the area of the region “swept-out” by (only!) the rolling circle can be represented in the form $a+b\pi$, where both $a$ and $b$ are positive integers. Find $a+b$.
 
+*Solution*:
+![Attatchment for Problem 3](images/20251.png)
+
+The desired area is shaded in orange and blue. Observe that the three orange sectors form in total a circle of radius $4$, while the three blue rectangles have dimensions $4\times20,4\times21,4\times29$. Thus, the area in question is
+
+$$4(20+21+29)+\pi\cdot4^2=280+16\pi$$
+
+so that $a+b=280+16=\boxed{296}$.
+
 **Problem 4**: A rigged coin is such that flipping 4 heads in a row is 4 times as likely as flipping 4 tails in a row. The probability that one flips 2 tails and 2 heads in some order can be represented as $m-n\sqrt{2}$ for positive integers $m$ and $n$. Find $m$.
 
 **Problem 5**: Recall that the $n$th triangular number is defined to be the sum of the first $n$ positive integers. Similarly, define the $n$th tetrahedral number as the sum of the first $n$ triangular numbers. How many $k$ exist between $1$ and $100$ (inclusive) such that the $k$th tetrahedral number is divisible by $9$? 
