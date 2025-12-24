@@ -12,7 +12,9 @@ title: YMC 2025 Solutions
 $$\frac{2}{1+\frac{1+0}{1+\frac{1+2}{1+5}}}$$
 
 *Solution*: $\frac{2}{1+\frac{1+0}{1+\frac{1+2}{1+5}}}=\frac{2}{1+\frac{1+0}{1+\frac{1}{2}}}=\frac{2}{1+\frac{1}{\frac{3}{2}}}=\frac{2}{1+\frac{2}{3}}=\frac{2}{\frac{5}{3}}=2\cdot\frac{3}{5}=\boxed{\frac{6}{5}}$. $\square$
-***
+
+---
+
 **Problem 2:** Cities $A$ and $B$ are connected by a highway 100 miles long. Alice sets out from city $A$ towards $B$ at a constant rate of 20 miles per hour, while Bob sets out from city $B$ at $150%$ the speed of Alice. When the two meet, Bob speeds up to a constant $n$ miles per hour, while Alice continues towards $B$ at the same rate as before. (As soon as Bob reaches $A$, he turns around and sets back towards $B$.) Given that the two reach city $B$ at the same time, what is the numerical value of $n$? Round your answer to the nearest tenth.
 ***
 **Problem 3**: A right triangle has legs of length $20$ and $21$. A circle of radius $2$ rolls about the outside perimeter of the triangle, always keeping tangent at one point. Suppose the area of the region “swept-out” by (only!) the rolling circle can be represented in the form $a+b\pi$, where both $a$ and $b$ are positive integers. Find $a+b$.
