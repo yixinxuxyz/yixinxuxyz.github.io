@@ -28,6 +28,24 @@ so that $a+b=280+16=\boxed{296}$. $\square$
 
 **Problem 4**: A rigged coin is such that flipping 4 heads in a row is 4 times as likely as flipping 4 tails in a row. The probability that one flips 2 tails and 2 heads in some order can be represented as $m-n\sqrt{2}$ for positive integers $m$ and $n$. Find $m$.
 
+*Solution*: Let the probability of flipping a head be $h>\frac{1}{2}$. Likewise, the probability of flipping a tail is $1-h$. Now, from the given, we have
+
+$$h^4=4\cdot(1-h)^4\\
+h=\sqrt{2}\cdot(1-h)\\
+h(\sqrt{2}+1)=\sqrt{2}\\
+h(\sqrt{2}+1)(\sqrt{2}-1)=(\sqrt{2}-1)(\sqrt{2})$$
+
+Thus, we find $h=2-\sqrt{2}.$ The desired probability is
+
+$$\begin{aligned}
+\binom{4}{2}h^2(1-h)^2 &=6\big((2-\sqrt{2})(\sqrt{2}-1)\big)^2\\
+&=6(3\sqrt2-4)^2\\
+&=6(18+16-24\sqrt2)\\
+&=204-144\sqrt{2}
+\end{aligned}$$
+
+So $\boxed{m=204}$. $\square$
+
 **Problem 5**: Recall that the $n$th triangular number is defined to be the sum of the first $n$ positive integers. Similarly, define the $n$th tetrahedral number as the sum of the first $n$ triangular numbers. How many $k$ exist between $1$ and $100$ (inclusive) such that the $k$th tetrahedral number is divisible by $9$? 
 
 *Solution*: The formula for the $n$-th triangular number is well known to be $T_n={n+1\choose{2}}=\frac{(n)(n+1)}{2}$. Perhaps less well known is that the $n$-th tetrahedral number is given by $V_n={n+2\choose{3}}=\frac{(n)(n+1)(n+2)}{3}$. A proof can be found [here](tetrahedral-numbers.html).
