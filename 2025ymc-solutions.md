@@ -42,10 +42,12 @@ so that $a+b=280+16=\boxed{296}$. $\square$
 
 *Solution*: Let the probability of flipping a head be $h>\frac{1}{2}$. Likewise, the probability of flipping a tail is $1-h$. Now, from the given, we have
 
-$$h^4=4\cdot(1-h)^4\\
+$$\begin{gathered}
+h^4=4\cdot(1-h)^4\\
 h=\sqrt{2}\cdot(1-h)\\
 h(\sqrt{2}+1)=\sqrt{2}\\
-h(\sqrt{2}+1)(\sqrt{2}-1)=(\sqrt{2}-1)(\sqrt{2})$$
+h(\sqrt{2}+1)(\sqrt{2}-1)=(\sqrt{2}-1)(\sqrt{2})
+\end{gathered}$$
 
 Thus, we find $h=2-\sqrt{2}.$ The desired probability is
 
