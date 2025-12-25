@@ -15,3 +15,7 @@ Hi! I'm Yixin Xu. When I was a child, I was constantly surrounded by kids either
 
 #### Music
 * [Brookdale Senior Living Preformance, 2025](musicpage.html)
+
+#### Resources
+* [Tetrahedral numbers](tetrahedral-numbers.html)
+
