@@ -17,6 +17,14 @@ $$\frac{2}{1+\frac{1+0}{1+\frac{1+2}{1+5}}}$$
 
 **Problem 2:** Cities $A$ and $B$ are connected by a highway 100 miles long. Alice sets out from city $A$ towards $B$ at a constant rate of 20 miles per hour, while Bob sets out from city $B$ at $150%$ the speed of Alice. When the two meet, Bob speeds up to a constant $n$ miles per hour, while Alice continues towards $B$ at the same rate as before. (As soon as Bob reaches $A$, he turns around and sets back towards $B$.) Given that the two reach city $B$ at the same time, what is the numerical value of $n$? Round your answer to the nearest tenth.
 
+*Solution*: First, we calculate the speed of Bob to be $150\%\cdot20\text{ mph}=30\text{ mph}$. Their combined speed is thus $50\text{ mph}$, so that they meet after exactly $\frac{100}{50}=2$ hours at a place 60 miles from B. 
+
+From there, we see that the time it takes for Alice to travel 60 miles is equal to the time it takes Bob to travel $100+40=140$ miles. We set up the following porportion:
+
+$$\frac{60}{140}=\frac{20}{n}$$
+
+Solving, we have $n=\frac{140}{3}\approx\boxed{46.7}$. $\square$
+
 ---
 
 **Problem 3**: A right triangle has legs of length $20$ and $21$. A circle of radius $2$ rolls about the outside perimeter of the triangle, always keeping tangent at one point. Suppose the area of the region “swept-out” by (only!) the rolling circle can be represented in the form $a+b\pi$, where both $a$ and $b$ are positive integers. Find $a+b$.
