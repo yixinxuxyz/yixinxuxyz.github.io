@@ -37,6 +37,7 @@ Solving, we have $n=\frac{140}{3}\approx\boxed{46.7}$. $\square$
     style="width: 60%; border: 2px solid black;"
   />
 </div>
+<br>
 
 The desired area is shaded in orange and blue. Observe that the three orange sectors form in total a circle of radius $4$, while the three blue rectangles have dimensions $4\times20,4\times21,4\times29$. Thus, the area in question is
 
@@ -66,7 +67,7 @@ $$\begin{aligned}
 &=204-144\sqrt{2}
 \end{aligned}$$
 
-So $\boxed{m=204}$. $\square$
+So $m=\boxed{204}$. $\square$
 
 ---
 
@@ -101,3 +102,24 @@ If this isn't immediately clear, consider the original problem statement. For an
 
 **Problem 7**: Triangle $ABC$ is right at angle $B$. The midpoints of $AB$ and $BC$ are denoted as $M$ and $N$. Segments $AN$ and $CM$ intersect at point $P$ such that $PM=4$ and $PN=3$. Compute the square of the length of hypotenuse $\overline{AC}$.
 
+*Solution*:
+<div style="text-align: center;">
+  <img 
+    src="images/20252.png" 
+    alt="Attatchment for Problem 3"
+    style="width: 70%; border: 2px solid black;"
+  />
+</div>
+<br>
+
+Let $AM=BM=x,BN=CN=y$. A property of the centroid $P$ is that $PC=2PM=8$; likewise, $PA=2PN=6$. Then, we have by the Pythagorean Theorem, 
+
+$$\begin{cases}
+x^2 + (2y)^2 = 12^2 \\
+(2x)^2 + y^2 = 9^2 \\
+(2x)^2+(2y)^2 = AC^2
+\end{cases}$$
+
+Adding the first two equations yeilds $5x^2+5y^2=144+81=225$. Multiplying by $\frac{4}{5}$ on both sides yields the desired:
+
+$$AC^2=4x^2+4y^2=\frac{4}{5}\cdot225=\boxed{180}.\blacksquare$$
