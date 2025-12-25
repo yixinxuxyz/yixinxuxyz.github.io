@@ -33,7 +33,7 @@ Next, we show the general formula for tetrahedral numbers.
 
 *Base Case*: $n=1$. Indeed, $V_1=\frac{1\cdot2\cdot3}{6}=1$, so the base case holds.
 
-*Inductive Step*: Suppose $n=-1$ were true; we are now to prove $n=k$, which is equivalent to the following:
+*Inductive Step*: Suppose $n=k-1$ were true; we are now to prove $n=k$, which is equivalent to the following:
 
 $$V_k=\dfrac{(k)(k+1)(k+2)}{6}$$
 
