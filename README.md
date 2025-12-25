@@ -4,8 +4,10 @@
 
 #### About me
 
-Hi! I'm Yixin Xu. When I was a child, I was constantly surrounded by kids either trying to convince me math was useless *or* that math was too hard. 
-
+<!-- 
+Hi! I'm Yixin Xu. When I was a child, I was constantly surrounded by kids either trying to convince me math was useless *or* that math was too hard. In spite, I started this website. Not really.
+ -->
+ 
 #### Past Competitions Archive
 
 |Problems|Solutions|

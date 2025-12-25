@@ -13,7 +13,13 @@ In fact, we can directly construct tetrahedral numbers as a sum of triangular nu
 
 ---
 
-**Thm 1**: $V_n=T_n+T_{n-1}+\dots+T_2+T_1$ for $n\in\mathbb{N}$
+**Thm 1.1**: $V_n=T_n+T_{n-1}+\dots+T_2+T_1$ for $n\in\mathbb{N}$
+
+Then clearly it follows,
+
+**Thm 1.2**: $V_n=T_n+V_{n-1}$ for $n\in\mathbb{N}$
+
+*Proof*: $V_n=T_n+T_{n-1}+\dots+T_2+T_1=T_n+(T_{n-1}+\dots+T_2+T_1)=T_n+V_{n-1}.$ $\square$
 
 ---
 
@@ -23,7 +29,7 @@ Next, we show the general formula for tetrahedral numbers.
 
 **Thm 2**: $V_n=\dfrac{(n)(n+1)(n+2)}{6}$ for $n\in\mathbb{N}$
 
-**Proof**: We proceed with weak induction:
+**Proof 1**: We proceed with weak induction:
 
 *Base Case*: $n=1$. Indeed, $V_1=\frac{1\cdot2\cdot3}{6}=1$, so the base case holds.
 
@@ -31,7 +37,7 @@ Next, we show the general formula for tetrahedral numbers.
 
 $$V_k=\dfrac{(k)(k+1)(k+2)}{6}$$
 
-Using (**Thm 1**), we may expand $V_k$:
+Using (**Thm 1.2**), we may expand $V_k$:
 
 $$V_{k-1}+T_k=\dfrac{(k)(k+1)(k+2)}{6}$$
 
@@ -47,6 +53,23 @@ $$\begin{gathered}
 & k=k
 \end{gathered}$$
 
-which completes the proof. $\blacksquare$
+which completes the proof. $\square$
+
+You may also have noticed that the formula for tetrahedral numbers looks much like a binomial coefficient. Indeed, we can find another proof using this fact!
+
+**Proof 2**: It is true by **Thm 1.1** that 
+
+$$V_n=T_n+T_{n-1}+\dots+T_2+T_1,n\in\mathbb{N}$$
+
+It is known the formula for triangular numbers is $T_n=\frac{(n)(n+1)}{2}=\binom{n+1}{2}$; therefore, using the **hockey stick identity**:
+
+$$\begin{aligned}
+V_n &= T_n+T_{n-1}+\dots+T_2+T_1\\
+&= \binom{n+1}{2}+\binom{n}{2}+\dots+\binom{3}{2}+\binom{2}{2}\\
+&= \binom{n+2}{3}\\\
+&= \frac{(n)(n+1)(n+2)}{3}
+\end{aligned}$$
+
+as desired. $\blacksquare$
 
 ---
