@@ -1,0 +1,24 @@
+# --- Site Settings ---
+title: My Math Notebook
+description: "Notes on AIME, AMC, and Calculus."
+author: Yixin Xu
+url: "https://www.yixinxu.xyz" # Replace with your actual link
+
+# --- Theme Setup ---
+# If using the standard theme:
+theme: jekyll-theme-minimal
+
+# If using the "Minimal Mistakes" theme (Recommended for Math):
+# remote_theme: "mmistakes/minimal-mistakes"
+
+# --- Math Support (Crucial!) ---
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+# --- Navigation ---
+# This makes your sidebar work
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
