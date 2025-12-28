@@ -2,7 +2,14 @@
 title: Yixin's Blog
 description: "https://www.yixinxu.xyz"
 author: Yixin Xu
+  links:
+      - label: "Email"
+        url: "mailto:yixinxu0306@gmail.com"
+      # - label: "GitHub"                 <-- ADD # HERE TO HIDE IT
+      #   icon: "fab fa-fw fa-github"     <-- ADD # HERE TOO
+      #   url: "https://github.com/yourname"
 url: "https://www.yixinxu.xyz" # Replace with your actual link
+layout: single # Title is at the top
 
 # --- Theme Setup ---
 # If using the standard theme:
