@@ -67,3 +67,23 @@ title: YMC 2026
 **Bretschneider's Formula**: $[ABCD]=\sqrt{(s-a)(s-b)(s-c)(s-d)-abcd\cos\left(\dfrac{\angle B+\angle D}{2}\right)}$, where $s=\dfrac{a+b+c+d}{2}$.
 
 *Corollary (Brahmagupta's Formula)*: If $ABCD$ is cyclic, then $[ABCD]=\sqrt{(s-a)(s-b)(s-c)(s-d)}$ since $\angle B+\angle D=180^\circ$
+
+**HM-AM-GM-QM chain**: For positive $a_{1,2\dots,n}$:
+
+$$\sqrt{\dfrac{\displaystyle\sum_{i=1}^n a_i^2}{n}}\geq \dfrac{\displaystyle\sum_{i=1}^n a_i}{n}\geq \sqrt[n]{\prod_{i=1}^n a}\geq\dfrac{n}{\displaystyle\sum_{i=1}^n \frac{1}{a_i}}$$ with equality $\mathbf{iff}$ $a_1=a_2=\dots=a_n$.
+
+**Cauchy-Schwarz**: For positive $a_{1,2\dots,n}, b_{1,2\dots,n}$:
+
+$$\left(\sum_{i=1}^n a_i^2\right)\left(\sum_{i=1}^n b_i^2\right)\geq\left(\sum_{i=1}^n a_ib_i\right)^2$$
+
+with equality $\mathbf{iff}$ $\dfrac{a_1}{b_1}=\dfrac{a_2}{b_2}=\dots=\dfrac{a_n}{b_n}$.
+
+*Ravi's Substitution*: If $a,b,c$ are sides of a triangle, then there always exist positive $x,y,z$ such that:
+
+$$\begin{cases}
+a=y+z \\
+b=x+z \\
+c=x+y.
+\end{cases}$$
+
+While not a "theorem," Ravi's substitution is often a powerful method to solve strange inequalities.
