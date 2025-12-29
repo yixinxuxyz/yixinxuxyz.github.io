@@ -1,7 +1,8 @@
 # --- Site Settings ---
 title: Yixin's Blog
 description: "https://www.yixinxu.xyz"
-author: Yixin Xu
+author: 
+  name: "Yixin Xu"
   links:
       - label: "Email"
         url: "mailto:yixinxu0306@gmail.com"
