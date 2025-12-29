@@ -22,7 +22,7 @@ url: "https://www.yixinxu.xyz" # Replace with your actual link
 
 # --- Theme Setup ---
 # If using the standard theme:
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 
 # If using the "Minimal Mistakes" theme (Recommended for Math):
 # remote_theme: "mmistakes/minimal-mistakes"
