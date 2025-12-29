@@ -20,5 +20,6 @@ Hi! I'm Yixin Xu. When I was a child, I was constantly surrounded by kids either
 
 #### Resources
 * [Random Theorems Repository](Math-Theorem.html)
+* [Symmetry in Geometry](SymmetryInGeo.html)
 * [Tetrahedral numbers](tetrahedral-numbers.html)
 
