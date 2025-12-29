@@ -1,4 +1,13 @@
 # --- Site Settings ---
+defaults:
+  - scope:
+      path: ""
+      type: posts  # This applies to all blog posts
+    values:
+      layout: single
+      author_profile: false  # True = Show sidebar bio; False = Hide it
+      
+layout: single
 title: Yixin's Blog
 description: "https://www.yixinxu.xyz"
 author: 
@@ -10,7 +19,6 @@ author:
       #   icon: "fab fa-fw fa-github"     <-- ADD # HERE TOO
       #   url: "https://github.com/yourname"
 url: "https://www.yixinxu.xyz" # Replace with your actual link
-layout: single # Title is at the top
 
 # --- Theme Setup ---
 # If using the standard theme:
