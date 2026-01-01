@@ -8,7 +8,7 @@ defaults:
       author_profile: false  # True = Show sidebar bio; False = Hide it
       
 layout: single
-title: Yixin's Blog
+title: null
 description: "https://www.yixinxu.xyz"
 author: 
   name: "Yixin Xu"

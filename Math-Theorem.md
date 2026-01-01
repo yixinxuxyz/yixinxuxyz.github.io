@@ -70,7 +70,9 @@ title: YMC 2026
 
 **HM-AM-GM-QM chain**: For positive $a_{1,2\dots,n}$:
 
-$$\sqrt{\dfrac{\displaystyle\sum_{i=1}^n a_i^2}{n}}\geq \dfrac{\displaystyle\sum_{i=1}^n a_i}{n}\geq \sqrt[n]{\prod_{i=1}^n a}\geq\dfrac{n}{\displaystyle\sum_{i=1}^n \frac{1}{a_i}}$$ with equality $\mathbf{iff}$ $a_1=a_2=\dots=a_n$.
+$$\sqrt{\dfrac{\displaystyle\sum_{i=1}^n a_i^2}{n}}\geq \dfrac{\displaystyle\sum_{i=1}^n a_i}{n}\geq \sqrt[n]{\prod_{i=1}^n a}\geq\dfrac{n}{\displaystyle\sum_{i=1}^n \frac{1}{a_i}}$$ 
+
+with equality $\mathbf{iff}$ $a_1=a_2=\dots=a_n$.
 
 **Cauchy-Schwarz**: For positive $a_{1,2\dots,n}, b_{1,2\dots,n}$:
 
@@ -87,3 +89,9 @@ c=x+y.
 \end{cases}$$
 
 While not a "theorem," Ravi's substitution is often a powerful method to solve strange inequalities.
+
+**Euler's Theorem (In Geometry)**: In a triangle $ABC$ with incenter $I$ and circumcenter $O$, it is true that:
+
+$$OI^2=R(R-2r)$$
+
+Following this, we may also conclude that $R-2r\geq0\Longrightarrow R\geq2r$ *(Euler's Inequality)*.
