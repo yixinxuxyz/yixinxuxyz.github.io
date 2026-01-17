@@ -49,7 +49,7 @@ title: YMC 2026
 
 **Area of Triangle I**: $[ABC]=\dfrac{1}{2}ab\sin C=\dfrac{1}{2}bc\sin A=\dfrac{1}{2}ac\sin B=\dfrac{abc}{4R}$.
 
-**Heron's formula:** $[ABC]=\sqrt{s(s-a)(s-b)(s-c)},$ where $s=\dfrac{a+b+c}{2}$.
+**Heron's formula $[ABC]=\sqrt{s(s-a)(s-b)(s-c)},$ where $s=\dfrac{a+b+c}{2}$.
 
 *Corollary*: In terms of only side lengths: $[ABC]=\dfrac{1}{4}\sqrt{4a^2b^2-(a^2+b^2-c^2)^2}$.
 
