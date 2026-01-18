@@ -9,32 +9,13 @@ title: YMC 2026
 
 ### Answer Key
 
-$\begin{array}{|c|c|c|c|c|} \hline
-\colorbox{lightblue}{1\ E} &
-\colorbox{yellow}{6\ B} &
-\colorbox{yellow}{11\ C} &
-\colorbox{red}{16\ E} &
-\colorbox{yellow}{21\ D} \\ \hline
-\colorbox{lightblue}{2\ C} &
-\colorbox{yellow}{7\ A} &
-\colorbox{lightgreen}{12\ A} &
-\colorbox{violet}{17\ D} &
-\colorbox{red}{22\ B} \\ \hline
-\colorbox{lightgreen}{3\ C} &
-\colorbox{orange}{8\ A} &
-\colorbox{orange}{13\ D} &
-\colorbox{purple}{\color{white}{18\ E}} &
-\colorbox{yellow}{23\ E} \\ \hline
-\colorbox{lightgreen}{4\ C} &
-\colorbox{orange}{9\ C} &
-\colorbox{lightgreen}{14\ D} &
-\colorbox{orange}{19\ D} &
-\colorbox{lightgreen}{24\ C} \\ \hline
-\colorbox{yellow}{5\ E} &
-\colorbox{lightgreen}{10\ C} &
-\colorbox{red}{15\ B} &
-\colorbox{orange}{20\ A} &
-\phantom{\colorbox{white}{0}} \\ \hline
+$\begin{array}{|c|c|c|c|c|}
+\hline
+1\,E & 6\,B & 11\,C & 16\,E & 21\,D \\ \hline
+2\,C & 7\,A & 12\,A & 17\,D & 22\,B \\ \hline
+3\,C & 8\,A & 13\,D & 18\,E & 23\,E \\ \hline
+4\,C & 9\,C & 14\,D & 19\,D & 24\,C \\ \hline
+5\,E & 10\,C & 15\,B & 20\,A &  \\ \hline
 \end{array}$
 
 ### Problem 1
