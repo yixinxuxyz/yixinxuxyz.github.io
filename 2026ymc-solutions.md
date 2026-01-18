@@ -11,11 +11,11 @@ title: YMC 2026
 
 <table>
   <tr>
-    <td style="border: 2px solid #000000ff; padding: 8px;">1 E</td>
-    <td style="border: 2px solid #000000ff; padding: 8px;">6 B</td>
-    <td style="border: 2px solid #000000ff; padding: 8px;">11 C</td>
-    <td style="border: 2px solid #000000ff; padding: 8px;">16 E</td>
-    <td style="border: 2px solid #000000ff; padding: 8px;">21 D</td>
+    <td style="border: 2px solid #000000ff">1 E</td>
+    <td style="border: 2px solid #000000ff">6 B</td>
+    <td style="border: 2px solid #000000ff">11 C</td>
+    <td style="border: 2px solid #000000ff">16 E</td>
+    <td style="border: 2px solid #000000ff">21 D</td>
   </tr>
   <tr>
     <td style="border: 2px solid #000000ff;">2 C</td>
@@ -45,7 +45,6 @@ title: YMC 2026
     <td style="border: 2px solid #000000ff;">20 A</td>
   </tr>
 </table>
-
 
 ### Problem 1
 
