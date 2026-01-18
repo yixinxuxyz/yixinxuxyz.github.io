@@ -9,14 +9,13 @@ title: YMC 2026
 
 ### Answer Key
 
-$\begin{array}{|c|c|c|c|c|}
-\hline
-1\,E & 6\,B & 11\,C & 16\,E & 21\,D \\ \hline
-2\,C & 7\,A & 12\,A & 17\,D & 22\,B \\ \hline
-3\,C & 8\,A & 13\,D & 18\,E & 23\,E \\ \hline
-4\,C & 9\,C & 14\,D & 19\,D & 24\,C \\ \hline
-5\,E & 10\,C & 15\,B & 20\,A &  \\ \hline
-\end{array}$
+<table border="">
+  <tr><td>1 E</td><td>6 B</td><td>11 C</td><td>16 E</td><td>21 D</td></tr>
+  <tr><td>2 C</td><td>7 A</td><td>12 A</td><td>17 D</td><td>22 B</td></tr>
+  <tr><td>3 C</td><td>8 A</td><td>13 D</td><td>18 E</td><td>23 E</td></tr>
+  <tr><td>4 C</td><td>9 C</td><td>14 D</td><td>19 D</td><td>24 C</td></tr>
+  <tr><td>5 E</td><td>10 C</td><td>15 B</td><td>20 A</td><td></td></tr>
+</table>
 
 ### Problem 1
 
