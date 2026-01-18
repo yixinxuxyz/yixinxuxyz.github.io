@@ -86,7 +86,7 @@ $\text{(A) } 15\qquad
 \text{(D) } 60\qquad 
 \text{(E) } 120$
 
-*Solution:* By treating the English and Math textbooks as a singular block, we can effectively calculate the number of arrangements of 4 distinct units (the block and the other 3 books), *then* arrange the English and Math textbooks *within* the block. This evaluates to be $4!*2!=\boxed{\text{(C) } 48}$. $\square$
+*Solution:* By treating the English and Math textbooks as a singular block, we can effectively calculate the number of arrangements of 4 distinct units (the block and the other 3 books), *then* arrange the English and Math textbooks *within* the block. This evaluates to be $4!\cdot2!=\boxed{\text{(C) } 48}$. $\square$
 
 ---
 
