@@ -9,13 +9,43 @@ title: YMC 2026
 
 ### Answer Key
 
-<table border="">
-  <tr><td>1 E</td><td>6 B</td><td>11 C</td><td>16 E</td><td>21 D</td></tr>
-  <tr><td>2 C</td><td>7 A</td><td>12 A</td><td>17 D</td><td>22 B</td></tr>
-  <tr><td>3 C</td><td>8 A</td><td>13 D</td><td>18 E</td><td>23 E</td></tr>
-  <tr><td>4 C</td><td>9 C</td><td>14 D</td><td>19 D</td><td>24 C</td></tr>
-  <tr><td>5 E</td><td>10 C</td><td>15 B</td><td>20 A</td><td></td></tr>
+<table>
+  <tr>
+    <td style="border: 2px solid #000000ff; padding: 8px;">1 E</td>
+    <td style="border: 2px solid #000000ff; padding: 8px;">6 B</td>
+    <td style="border: 2px solid #000000ff; padding: 8px;">11 C</td>
+    <td style="border: 2px solid #000000ff; padding: 8px;">16 E</td>
+    <td style="border: 2px solid #000000ff; padding: 8px;">21 D</td>
+  </tr>
+  <tr>
+    <td style="border: 2px solid #000000ff;">2 C</td>
+    <td style="border: 2px solid #000000ff;">7 A</td>
+    <td style="border: 2px solid #000000ff;">12 A</td>
+    <td style="border: 2px solid #000000ff;">17 D</td>
+    <td style="border: 2px solid #000000ff;">22 B</td>
+  </tr>
+  <tr>
+    <td style="border: 2px solid #000000ff;">3 C</td>
+    <td style="border: 2px solid #000000ff;">8 A</td>
+    <td style="border: 2px solid #000000ff;">13 D</td>
+    <td style="border: 2px solid #000000ff;">18 E</td>
+    <td style="border: 2px solid #000000ff;">23 E</td>
+  </tr>
+  <tr>
+    <td style="border: 2px solid #000000ff;">4 C</td>
+    <td style="border: 2px solid #000000ff;">9 C</td>
+    <td style="border: 2px solid #000000ff;">14 D</td>
+    <td style="border: 2px solid #000000ff;">19 D</td>
+    <td style="border: 2px solid #000000ff;">24 C</td>
+  </tr>
+  <tr>
+    <td style="border: 2px solid #000000ff;">5 E</td>
+    <td style="border: 2px solid #000000ff;">10 C</td>
+    <td style="border: 2px solid #000000ff;">15 B</td>
+    <td style="border: 2px solid #000000ff;">20 A</td>
+  </tr>
 </table>
+
 
 ### Problem 1
 
