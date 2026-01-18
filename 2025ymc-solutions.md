@@ -5,7 +5,7 @@ title: YMC 2025 Solutions
 
 {% include mathjax.html %}
 
-## Solutions
+# 2025 YMC Solutions
 
 ### Problem 1 
 Compute the value of
