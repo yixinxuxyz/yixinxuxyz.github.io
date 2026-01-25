@@ -206,8 +206,7 @@ $\text{(A) 161} \qquad
 \text{(D) 371} \qquad 
 \text{(E) 372} $
 
-*Solution*: Let $H_n$ denote the $n$-th cornered hexagonal number. Notice that in the first term, there is 1 row and 1 dot in each row. In the second term, there are 3 rows and 2 dots in each row. In the third term, there are 5 rows and 3 dots in each row. In general, the $n$-th term has $2n-1$ rows and $n$ dots in each row, so that $H_n=(2n-1)(n)$. Thus, we find that the required sum is
-$$1\cdot1+3\cdot2+5\cdot3+7\cdot4+9\cdot5+11\cdot6+13\cdot7=\boxed{\text{C. }252}$$
+*Solution*: Let $H_n$ denote the $n$-th cornered hexagonal number. Notice that in the first term, there is 1 row and 1 dot in each row. In the second term, there are 3 rows and 2 dots in each row. In the third term, there are 5 rows and 3 dots in each row. In general, the $n$-th term has $2n-1$ rows and $n$ dots in each row, so that $H_n=(2n-1)(n)$. Thus, we find that the required sum is $$1\cdot1+3\cdot2+5\cdot3+7\cdot4+9\cdot5+11\cdot6+13\cdot7=\boxed{\text{(C) }252}.\text{ }\square$$
 
 ---
 
