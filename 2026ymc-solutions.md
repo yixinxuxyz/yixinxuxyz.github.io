@@ -137,6 +137,10 @@ $\begin{aligned}
 &\text{(E) No such } (x,y) \text{ exist.} 
 \end{aligned}$
 
+*Solution*: We can factor this into $(x^2-1)(y^2-1)=(x-1)(x+1)(y-1)(y+1)=0$. This implies that any of $x-1,x+1,y-1,y+1$ is equal to 0, which results in the 4 lines $x=1,x=-1,y=1,y=-1$ respectively; these form a **square** $\Longrightarrow \boxed{\text{B}}$. $\square$
+
+---
+
 ### Problem 7
 
 Avi and Jason have the following conversation regarding Jason’s favorite number:
@@ -162,6 +166,10 @@ $\text{(A) } 1\qquad
 \text{(D) } 4\qquad 
 \text{(E) } 5$
 
+*Solution*: The only prime numbers between 50 and 80 are $53, 59, 61, 67, 71, 73, \text{and } 79$. Computing the sums of the digits, we see that the two satisfactory results are 61 and 67. Choosing the larger, we see that the requested difference is $7-6=\boxed{\text{(A) } 1}$. $\square$
+
+---
+
 ### Problem 8
 
 Regular octagon $TINGSHUN'$ has side length $\sqrt{2}$. Compute the area of pentagon $STING$.
@@ -172,6 +180,10 @@ $\text{(A) } 2+2\sqrt{2} \qquad
 \text{(C) } 2\sqrt{2}\qquad 
 \text{(D) } 8\qquad 
 \text{(E) } 16$
+
+*Solution*: $STING$ is the pentagon formed by splitting the regular octagon $TINGSHUN'$ through its center into two congruent pieces. Using the formula for the area of a regular octagon we see that $A=2(1+\sqrt{2})a^2=4(1+\sqrt{2})\Longrightarrow [STING]=\frac{A}{2}=\boxed{\text{(A) }2+2\sqrt{2}}$. $\square$
+
+---
 
 ### Problem 9
 
@@ -194,6 +206,11 @@ $\text{(A) 161} \qquad
 \text{(D) 371} \qquad 
 \text{(E) 372} $
 
+*Solution*: Let $H_n$ denote the $n$-th cornered hexagonal number. Notice that in the first term, there is 1 row and 1 dot in each row. In the second term, there are 3 rows and 2 dots in each row. In the third term, there are 5 rows and 3 dots in each row. In general, the $n$-th term has $2n-1$ rows and $n$ dots in each row, so that $H_n=(2n-1)(n)$. Thus, we find that the required sum is
+$$1\cdot1+3\cdot2+5\cdot3+7\cdot4+9\cdot5+11\cdot6+13\cdot7=\boxed{\text{C. }252}$$
+
+---
+
 ### Problem 10
 
 Consider the equation $4^{4^x}=2^{2^y}$. Which of the following is neccisarily true in $x$ and $y$?
@@ -203,6 +220,20 @@ $\text{(A) } y=2x\qquad
 \text{(C) } y=2x+1\qquad 
 \text{(D) } y=x+2\qquad 
 \text{(E) } y=2^x$
+
+*Solution*: We may simplify in the following manner:
+
+$$\begin{aligned}
+4^{4^x}&=2^{2^y}\\
+(2^{2})^{(2^{2x})}&=2^{2^y}\\
+2^{2\cdot(2^{2x})}&=2^{2^y}\\
+2^{2^{2x+1}}&=2^{2^y}\\
+2x+1&=y
+\end{aligned}$$
+
+Thus the correct answer is $\boxed{\text{C}}$. $\square$
+
+---
 
 ### Problem 11
 
@@ -215,6 +246,15 @@ $\text{(A) } 0\qquad
 \text{(D) } 4\qquad 
 \text{(E) infinitely many} $
 
+*Solution*: For $\Big\vert x-\big\vert x-\vert ax\vert\big\vert\Big\vert =0$ to have infinitely many solution, there must exist an infinite set of $x$ such that $\big\vert x-\vert ax\vert\big\vert=x$.
+
+* If $x-\vert ax\vert=x$ for all $x$, then $a=0$
+* If $x-\vert ax\vert=-x$ for all $x$, then $a=\pm2$
+
+Thus, there are $\boxed{\text{(C) }3}$ real $a$. 
+
+---
+
 ### Problem 12
 
 On my biology final, each of the 90 problems are multiple choice, with 4 answer choices and exactly one correct answer. Suppose I answer $n$ questions correctly and guess the rest at random. What is the minimum *integer value* of $n$ such that the *expected value* of my score is at least an **A**? (An **A** is defined to be any percentage score greater than or equal to 92.5%.)
@@ -224,6 +264,10 @@ $\text{(A) } 81\qquad
 \text{(C) } 83\qquad 
 \text{(D) } 84\qquad 
 \text{(E) } 85$
+
+*Solution*:
+
+---
 
 ### Problem 13
 
@@ -246,6 +290,10 @@ $\text{(A) } \dfrac{25}{32}\qquad
 \text{(D) } \dfrac{32}{25}\qquad 
 \text{(E) } 1$
 
+*Solution*:
+
+---
+
 ### Problem 14
 
 *(Proposed by Tingxuan Liu)* Tingxuan is a professional food critic. Today she is eating 370 mango flavored desserts. The first section includes 70 cheesecakes and the second section consists of 300 smoothies. Tingxuan eats at a constant speed for both sections, but her speed at the smoothie section is 40 “items” per hour faster than her speed at the cheesecake section, and the time she takes at the cheesecake section is exactly half the time she takes on the smoothie section. What is her average eating speed on the smoothie section (in smoothies per hour)?
@@ -256,6 +304,10 @@ $\text{(A) } \dfrac{280}{23}\qquad
 \text{(D) } 75\qquad 
 \text{(E) } 115$
 
+*Solution*:
+
+---
+
 ### Problem 15
 
 Consider $\triangle ABC$; denote the midpoint of $AB$ as $M$ and the point $N$ as the point on side $BC$ (that is, between $B$ and $C$) where $CN:CB=k$. Let the intersection of $AN$ and $CM$ be $P$; if $CP=PM$, then the value of $k$ is equal to ___.
@@ -265,6 +317,10 @@ $\text{(A) } 1:2\qquad
 \text{(C) } 2:3\qquad 
 \text{(D) } 1:4\qquad 
 \text{(E) } 3$
+
+*Solution*:
+
+---
 
 ### Problem 16
 
@@ -284,6 +340,10 @@ $\begin{aligned}
 \text{(E) I, II and III}
 \end{aligned}$
 
+*Solution*:
+
+---
+
 ### Problem 17
 
 Consider the set of points on the coordinate plane $S: y=\sqrt{-x^{2}+4x}$. There exist real values of $a$ such that $S$ and $y=x+a$ have exactly one intersection; furthermore, the set of possible values of $a$ can be represented as $a\in [m,n) \text{ or } a=\sqrt{p}-q$ for integers $m,n,p,q$. Compute $m+n+p+q$. (The $\in$ symbol denotes "is in".)
@@ -293,6 +353,10 @@ $\text{(A) -6} \qquad
 \text{(C) 2} \qquad 
 \text{(D) 6} \qquad 
 \text{(E) 14} $
+
+*Solution*:
+
+---
 
 ### Problem 18
 
