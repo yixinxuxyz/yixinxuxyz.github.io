@@ -249,10 +249,10 @@ $\text{(A) } 0\qquad
 
 *Solution*: For $\Big\vert x-\big\vert x-\vert ax\vert\big\vert\Big\vert =0$ to have infinitely many solution, there must exist an infinite set of $x$ such that $\big\vert x-\vert ax\vert\big\vert=x$.
 
-* If $x-\vert ax\vert=x$ for all $x$, then $a=0$
-* If $x-\vert ax\vert=-x$ for all $x$, then $a=\pm2$
+* If $x-\vert ax\vert=x$ for infinitely many $x$, then $a=0$
+* If $x-\vert ax\vert=-x$ for infinitely many $x$ , then $a=\pm2$
 
-Thus, there are $\boxed{\text{(C) }3}$ real $a$. 
+Both hold only for $x>0$. Thus, there are $\boxed{\text{(C) }3}$ real $a$. 
 
 ---
 
@@ -413,7 +413,7 @@ $\text{(A) } 0\qquad
 
 ### Problem 20 
 
-The graph of $\left(\left\vert y-2x\right\vert-1\right)\left(\left\vert x-2y\right\vert-1\right)=0$ splits the coordinate plane into 9 distinct regions; exactly one of these has a finite area of $A$. Find $A$.
+The graph of $\left(\left\vert y-2x\right\vert-0.5\right)\left(\left\vert x-2y\right\vert-0.5\right)=0$ splits the coordinate plane into 9 distinct regions; exactly one of these has a finite area of $A$. Find $A$.
 
 $\text{(A) } \dfrac{1}{3}\qquad 
 \text{(B) } \dfrac{4\sqrt2}{3}\qquad 
