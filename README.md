@@ -12,7 +12,7 @@ Hi! I'm Yixin Xu. When I was a child, I was constantly surrounded by kids either
 
 |Problems|Solutions|
 |:---:|:---:|
-|2026|2026|
+|[2026](2026ymc.html)|[2026](2026ymc-solutions.html) (WIP)|
 |[2025](2025ymc.html)|[2025](2025ymc-solutions.html)
 
 #### Music
