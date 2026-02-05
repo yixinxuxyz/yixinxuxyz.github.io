@@ -44,7 +44,21 @@ title: YMC 2026
     <td style="border: 2px solid #000000ff;">15 B</td>
     <td style="border: 2px solid #000000ff;">20 A</td>
   </tr>
+  <tr>
 </table>
+
+**Scoring**: +4 points for correct, +1 for unaswered, +0 for incorrect. Total points: **96**.
+
+### Score Distribution
+
+<div style="text-align: center;">
+  <img 
+    src="images/Stats2026A.png" 
+    alt="Attatchment for Problem 3"
+    style="width: 90%"
+  />
+</div>
+<br>
 
 ### Problem 1
 
@@ -214,7 +228,7 @@ $$1\cdot1+3\cdot2+5\cdot3+7\cdot4+9\cdot5+11\cdot6+13\cdot7=\boxed{\text{(C) }25
 
 ### Problem 10
 
-Consider the equation $4^{4^x}=2^{2^y}$. Which of the following is neccisarily true in $x$ and $y$?
+Consider the equation $4^{4^x}=2^{2^y}$. Which of the following is necessarily true in $x$ and $y$?
 
 $\text{(A) } y=2x\qquad 
 \text{(B) } y=4x\qquad 
@@ -455,7 +469,7 @@ $\text{(A) } 01\qquad
 
 ### Problem 24 
 
-There exists a unique integer value of $n$ such that, in degrees, the interior angle measure of a $(n-1)$-gon is $6^\circ$ more than the interior angle measure of a $(n+1)$-gon. Find $n$.
+There exists a unique integer value of $n$ such that, in degrees, the interior angle measure of a regular $(n-1)$-gon is $6^\circ$ less than the interior angle measure of a regular $(n+1)$-gon. Find $n$.
 
 $\text{(A) } 7\qquad 
 \text{(B) } 9\qquad 
