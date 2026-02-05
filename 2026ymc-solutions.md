@@ -44,7 +44,6 @@ title: YMC 2026
     <td style="border: 2px solid #000000ff;">15 B</td>
     <td style="border: 2px solid #000000ff;">20 A</td>
   </tr>
-  <tr>
 </table>
 
 **Scoring**: +4 points for correct, +1 for unaswered, +0 for incorrect. Total points: **96**.
