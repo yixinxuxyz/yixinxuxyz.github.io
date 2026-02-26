@@ -384,7 +384,11 @@ $\begin{aligned}
 \text{(E) I, II and III}
 \end{aligned}$
 
-*Solution*:
+*Solution*: The answer is $\boxed{E}$. The first statement is a fact which reflects the associative property of $\gcd()$. The second is also a fact, and this can be shown as follows:
+
+Assume $\gcd(a,b)=d\Longrightarrow a=dx,b=dy$ for some relatively prime $x,y$. Then, $\operatorname{lcm}(a,b)=dxy$. The proof is completed as $dx\cdot dy=d\cdot dxy$.
+
+For the last one, we can also assume $\gcd(a,b)=d\Longrightarrow a=dx,b=dy$ for some relatively prime $x,y$. Then, $\gcd(a^2,b^2)=d^2$ because $\gcd(x^2,y^2)=1$, and the proof is completed. $\square$
 
 ---
 
