@@ -265,7 +265,7 @@ $\text{(A) } 0\qquad
 * If $x-\vert ax\vert=x$ for infinitely many $x$, then $a=0$
 * If $x-\vert ax\vert=-x$ for infinitely many $x$ , then $a=\pm2$
 
-Both hold only for $x>0$. Thus, there are $\boxed{\text{(C) }3}$ real $a$. 
+Both hold only for $x>0$. Thus, there are $\boxed{\text{(C) }3}$ real $a$. $\square$
 
 ---
 
@@ -279,7 +279,15 @@ $\text{(A) } 81\qquad
 \text{(D) } 84\qquad 
 \text{(E) } 85$
 
-*Solution*:
+*Solution*: I am expected to get correct one-fourth of the questions I guess. Then we have
+
+$$\begin{aligned}
+n+\frac{1}{4}(90-n)&\geq92.5\% \cdot 90\\
+&= 83.25\\
+4n+90-n&\geq 333\\
+n+30&\geq 111\\
+n&\geq\boxed{\text{(A) } 81} .\quad\square
+\end{aligned}$$
 
 ---
 
@@ -304,7 +312,13 @@ $\text{(A) } \dfrac{25}{32}\qquad
 \text{(D) } \dfrac{32}{25}\qquad 
 \text{(E) } 1$
 
-*Solution*:
+*Solution*: Recall that the area of a polygon is equal to the product of its semiperimeter and its inradius (if it exists).
+
+By splitting the first rhombus into two triangles along its shorter diagonal, we obtain two triangles with sides 5, 5, and 6; their incircles are the two green cricles. Each triangle has area 12 and semiperimeter 8, so the radius of each green circle is $\frac{3}{2}\Longrightarrow A=2\cdot\frac{3}{2}^2\cdot\pi=\frac{9}{2}\pi$.
+
+Similarly, the semiperimeter of the right rhombus is 10, while its area is 24. This means the radius of the blue circle is $\frac{24}{10}=\frac{12}{5}\Longrightarrow B=\frac{144}{25}\pi$ Evaluating,
+
+$$\dfrac{B}{A}=\dfrac{144}{25}\cdot\dfrac{2}{9}=\boxed{\text{(D) }\frac{32}{25}}.\quad\square$$
 
 ---
 
@@ -318,7 +332,11 @@ $\text{(A) } \dfrac{280}{23}\qquad
 \text{(D) } 75\qquad 
 \text{(E) } 115$
 
-*Solution*:
+*Solution*: First, let us acknowledge that Tingxuan definitely has diabetes. Next, suppose were speed on the smoothie section is $k$ items per hour; this means that she ate $k-40$ cheescakes per hour in the first half of the critique. We can set up the simple equation:
+
+$$2\cdot\frac{70}{k-40}=\frac{300}{k}$$
+
+Solving this we get $14k=30k-1200\Longrightarrow k=\boxed{\text{(D) }75}$. $\square$
 
 ---
 
@@ -332,7 +350,19 @@ $\text{(A) } 1:2\qquad
 \text{(D) } 1:4\qquad 
 \text{(E) } 3$
 
-*Solution*:
+*Solution*: 
+
+
+<div style="text-align: center;">
+  <img 
+    src="images/20261.png" 
+    alt="Attatchment for Problem 3"
+    style="width: 70%; border: 2px solid black;"
+  />
+</div>
+<br>
+
+Reflect $C$ over $M$ to get $C'$. It is clear that $ACBC'$ is a parallelogram. Also, since $2CP=CM$ and $CC'=2CM$, $CC'=4CP\Longrightarrow CP:C'P=1:3$. Also, since $\triangle APC'\sim \triangle NPC$, $CN:AC'=CP:C'P=1:3\Longrightarrow CN:NB=\boxed{\text{(A) } 1:2}$. $\square$
 
 ---
 
