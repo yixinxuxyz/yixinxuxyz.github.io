@@ -1,15 +1,19 @@
 ---
 layout: default
-title: YMC 2026
+title: YMC 2025 Solutions
 ---
 
 {% include mathjax.html %}
 
-# 2026 YMC-ii Problems
+# 2025 YMC Solutions
 
-### Problem 1
+### Problem 1 
+Compute the value of
 
 Two circles of radius 4 pass through each others' center, and their intersection is denoted as $S$. A square is inscribed in $S$, such that two verticies lie on the circumference of one circle, and the other two like on the circumference of the other circle. The side length of this square can be written as $\sqrt{n}-k$ for some positive integers $n$ and $k$. What is $10n+k$?
 
-### Problem 2
+*Solution:* Skibidi
 
+---
+
+### Problem 2 
