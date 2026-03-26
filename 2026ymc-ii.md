@@ -13,3 +13,6 @@ Two circles of radius 4 pass through each others' center, and their intersection
 
 ### Problem 2
 
+Ren and Boyi are playing a numebr guessing game as follows: Ren picks a number between 1 and $n$ (inclusive) and tells Boyi to guess his number. However, Ren is annoying and is actually just trying to waste Boyi's time, so he may or may not change the number after Boyi's guess. Immediately after this change, Ren tells Boyi whether his guess is too large to too small. To keep Boyi from suspecting his trickery, Ren never contradicts his previous hints.
+
+For some values of $n$, Ren takes 6 guesses to finally guess the number (including the one where he finally gets it correct.) Assuming both Ren and Boyi are perfectly rational, what is the positive difference between the largest and smallest possible values of $n$?
