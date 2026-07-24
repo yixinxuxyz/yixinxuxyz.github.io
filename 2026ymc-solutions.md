@@ -402,7 +402,18 @@ $\text{(A) -6} \qquad
 \text{(D) 6} \qquad 
 \text{(E) 14} $
 
-*Solution*:
+*Solution*: Observe that $S$ is the top half of a radius 2 circle centered at $(0,2)$. The weird composition here represent two cases: the single element $a=\sqrt{p}-q$ simply represents when the line is tangent to the semicircle (blue line), while the interval $a\in [m,n)$ represent some intersection between the line and the top half of $S$ (gree region, observe the strict/unstrict bounds).  
+
+
+<div style="text-align: center;">
+  <img 
+    src="images/20262.png" 
+    style="width: 50%; border: 2px solid black;"
+  />
+</div>
+<br>
+
+Some pretty straight forward alegbra yields the blue line as $y=2\sqrt{2}-2+x$ and the green region as $x-4\le y<x$. Thus we have $(m,n,p,q)=(-4,0,8,2)$, and the requested sum is $\boxed{\text{(D) }6}$. $\square$
 
 ---
 
@@ -439,6 +450,48 @@ $\text{(A) 2} \qquad
 \text{(D) 10} \qquad 
 \text{(E) 14} $
 
+*Solution*: This is probably the hardest problem on this test. Observe that if any of rows 1, 3, columns 1, 3 do not contain a 1, they will stay 0 forever (this does not apply to the center row and column because they can become filled if their left/right or top/bottom neighbors are both 1). In particular, these are the only rotationally distinct solutions:
+
+$$\begin{array}{cccc}
+\begin{bmatrix}1&0&0\\0&1&0\\0&0&1\end{bmatrix} &
+\begin{bmatrix}1&0&1\\0&0&0\\0&1&0\end{bmatrix} &
+\begin{bmatrix}1&0&1\\0&0&0\\1&0&0\end{bmatrix} &
+\begin{bmatrix}1&0&0\\0&0&1\\0&1&0\end{bmatrix}
+\end{array}$$
+
+which collapse in these ways:
+
+$$\begin{array}{cccc}
+\begin{bmatrix}1&0&0\\0&1&0\\0&0&1\end{bmatrix} &
+\begin{bmatrix}1&0&1\\0&0&0\\0&1&0\end{bmatrix} &
+\begin{bmatrix}1&0&1\\0&0&0\\1&0&0\end{bmatrix} &
+\begin{bmatrix}1&0&0\\0&0&1\\0&1&0\end{bmatrix}\\
+
+\begin{bmatrix}1&1&0\\1&1&1\\0&1&1\end{bmatrix} &
+\begin{bmatrix}1&1&1\\0&0&0\\0&1&0\end{bmatrix} &
+\begin{bmatrix}1&1&1\\1&0&0\\1&0&0\end{bmatrix} &
+\begin{bmatrix}1&0&0\\0&1&1\\0&1&1\end{bmatrix}\\
+
+\begin{bmatrix}1&1&1\\1&1&1\\1&1&1\end{bmatrix} &
+\begin{bmatrix}1&1&1\\0&1&0\\0&1&0\end{bmatrix} &
+\begin{bmatrix}1&1&1\\1&1&0\\1&0&0\end{bmatrix} &
+\begin{bmatrix}1&1&0\\1&1&1\\0&1&1\end{bmatrix}\\
+
+&
+\begin{bmatrix}1&1&1\\1&1&1\\0&1&0\end{bmatrix} &
+\begin{bmatrix}1&1&1\\1&1&1\\1&1&0\end{bmatrix} &
+\begin{bmatrix}1&1&1\\1&1&1\\1&1&1\end{bmatrix}\\
+
+&
+\begin{bmatrix}1&1&1\\1&1&1\\1&1&1\end{bmatrix} &
+\begin{bmatrix}1&1&1\\1&1&1\\1&1&1\end{bmatrix} &
+
+\end{array}$$
+
+Summing their rotational orders gives $2+4+4+4=\boxed{\text{(E) } 14}$.
+
+---
+
 ### Problem 19
 
 The graph of $y=f(x)$ is shown. The sum of the real solutions of $f(f(f(x)))=0$ is
@@ -458,6 +511,10 @@ $\text{(A) } 0\qquad
 \text{(D) } \dfrac{35}{3}\qquad 
 \text{(E) } \dfrac{65}{9}$
 
+*Solution*:
+
+---
+
 ### Problem 20 
 
 The graph of $\left(\left\vert y-2x\right\vert-0.5\right)\left(\left\vert x-2y\right\vert-0.5\right)=0$ splits the coordinate plane into 9 distinct regions; exactly one of these has a finite area of $A$. Find $A$.
@@ -468,6 +525,10 @@ $\text{(A) } \dfrac{1}{3}\qquad
 \text{(D) } \dfrac{2\sqrt2}{3}\qquad 
 \text{(E) } \dfrac{4}{5}$
 
+*Solution*:
+
+---
+
 ### Problem 21 
 
 Rectangle $ABCD$ has $AB=2$ and $BC=1$. Circle $\omega$ passes through $A$, $D$, and the midpoints of $AB$ and $CD$. Diagonal $AC$ intersects $\omega$ at point $P$. Find the area of triangle $ADP$.
@@ -477,6 +538,10 @@ $\text{(A) } \dfrac{1}{3}\qquad
 \text{(C) } \dfrac{1}{2}\qquad 
 \text{(D) } \dfrac{3}{5}\qquad 
 \text{(E) } \dfrac{2}{3}$
+
+*Solution*:
+
+---
 
 ### Problem 22 
 
@@ -490,6 +555,10 @@ $\text{(A) } -4\qquad
 \text{(D) } 1\qquad 
 \text{(E) } 2$
 
+*Solution*:
+
+---
+
 ### Problem 23 
 
 The last two digits (from the left) of $11^{2026}$ are:
@@ -500,6 +569,10 @@ $\text{(A) } 01\qquad
 \text{(D) } 41\qquad 
 \text{(E) } 61$
 
+*Solution*:
+
+---
+
 ### Problem 24 
 
 There exists a unique integer value of $n$ such that, in degrees, the interior angle measure of a regular $(n-1)$-gon is $6^\circ$ less than the interior angle measure of a regular $(n+1)$-gon. Find $n$.
@@ -509,4 +582,6 @@ $\text{(A) } 7\qquad
 \text{(C) } 11\qquad 
 \text{(D) } 13\qquad 
 \text{(E) } 15$
+
+*Solution*:
 
