@@ -3,7 +3,7 @@ layout: default
 title: YMC 2025 Solutions
 ---
 
-{% include mathjax.html %}
+{% include mathjaxv.html %}
 
 # 2025 YMC Solutions
 

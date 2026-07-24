@@ -511,7 +511,7 @@ $\text{(A) } 0\qquad
 \text{(D) } \dfrac{35}{3}\qquad 
 \text{(E) } \dfrac{65}{9}$
 
-*Solution*:
+*Solution*: Observe that $f$ is composed of 3 parts: $y=3x$ on $[0,2)$, $y=2$ on $[2,4)$, and $y=-3(x-5)$ on $[4,6]$. Now first let $f(f(x))=a$: then $f(a)=0\Longrightarrow a=0,5$. Similarly letting, $f(x)=b$, we have $f(b)=0,5\Longrightarrow b=0,5,\frac{5}{3}$. Finally, solving $f(x)=0,5,\frac{5}{3}$, we get $x=0,5,\frac{5}{3},\frac{5}{9},\frac{40}{9}$, so the sum will be $\boxed{\text{(D) } \frac{35}{3}}$.
 
 ---
 
@@ -525,7 +525,7 @@ $\text{(A) } \dfrac{1}{3}\qquad
 \text{(D) } \dfrac{2\sqrt2}{3}\qquad 
 \text{(E) } \dfrac{4}{5}$
 
-*Solution*:
+*Solution*: Let us first figure out what this equation looks like. The zero product rule implies that either $\vert y-2x\vert =0.5$ or $\vert x-2y\vert=0.5 $. These in turn imply the relations $y=2x\pm0.5$ and $y=\frac{1}{2}x\pm0.25$. Graphing these lines, we see that the finite region centered at $(0,0)$ is in fact a rhombus with diagonals of lengths $\sqrt{2}$ and $\frac{\sqrt{2}}{3}$, so the area will be $\frac{1}{2}\cdot\sqrt{2}\cdot\frac{1}{3}\sqrt{2}=\boxed{\text{(A) } \frac{1}{3}}$. $\square$
 
 ---
 
@@ -539,7 +539,7 @@ $\text{(A) } \dfrac{1}{3}\qquad
 \text{(D) } \dfrac{3}{5}\qquad 
 \text{(E) } \dfrac{2}{3}$
 
-*Solution*:
+*Solution*: Let $M$ be the midpoint of $CD$. By the Power of a Point on point $C$ with respect to $\omega$, we find $CP\cdot CA=CM\cdot CD\Longrightarrow \sqrt5\cdot CP=1\cdot2 \Longrightarrow CP=\frac{2}{\sqrt5}$. Thus, $AP:CA=3:5$, so $[ADP]=\frac{3}{5}\cdot[ADC]=\boxed{\text{(D) } \dfrac{3}{5}}$. $\square$
 
 ---
 
@@ -555,7 +555,9 @@ $\text{(A) } -4\qquad
 \text{(D) } 1\qquad 
 \text{(E) } 2$
 
-*Solution*:
+*Solution 1*: Intended. Evidently 0 is not a root. So divide the equation by $x^2$ to obtain $x^2+x+4+\frac{2}{x}+\frac{4}{x^2}=6.$ Now let $u=x+\frac{2}{x}$; note that $u^2=x^2+4+\frac{4}{x^2}$. Then the equation becomes $u^2+u=6$, so $u=2,-3$. Since each $u$ contributes $2$ solutions for $x$, the sum of the $\left(r_1+\frac{2}{r_1}\right)$'s is just $2(2-3)=\boxed{\text{(B) } -2}$. $\square$
+
+*Solution 2*: Vieta cheese. Moving the $6x^2$ to the LHS yields $x^4+x^3-2x^2+2x+4=0$. The desired formula can be rewriten as $(r_1+r_2+r_3+r_4)+2\left[\frac{r_1r_2r_3+r_2r_3r_4+r_3r_4r_1+r_4r_1r_2}{r_1r_2r_3r_4}\right]$, which is equal by Vieta to $-1+2\cdot\frac{-2}{4}=\boxed{\text{(B) } -2}$. $\square$
 
 ---
 
@@ -569,13 +571,13 @@ $\text{(A) } 01\qquad
 \text{(D) } 41\qquad 
 \text{(E) } 61$
 
-*Solution*:
+*Solution*: We have by the Binomial Theorem $11^{2026}=(10+1)^{2026}=1+2026\cdot 10+\binom{2026}{2}\cdot10^2+\dots+10^{2026}$. Since we seek only the last two digits (tens and units) we can ignore everything that contains two or more factors of 10 (since these will end in at least 2 zeroes). Thus, the last two digits are simply those of $2026\cdot10+1$, which are $\boxed{\text{(E) } 61}$. $\square$
 
 ---
 
 ### Problem 24 
 
-There exists a unique integer value of $n$ such that, in degrees, the interior angle measure of a regular $(n-1)$-gon is $6^\circ$ less than the interior angle measure of a regular $(n+1)$-gon. Find $n$.
+There exists a unique postive integer value of $n$ such that, in degrees, the interior angle measure of a regular $(n-1)$-gon is $6^\circ$ less than the interior angle measure of a regular $(n+1)$-gon. Find $n$.
 
 $\text{(A) } 7\qquad 
 \text{(B) } 9\qquad 
@@ -583,5 +585,5 @@ $\text{(A) } 7\qquad
 \text{(D) } 13\qquad 
 \text{(E) } 15$
 
-*Solution*:
+*Solution*: The interior angle measure of a regular polygon with $k$ sides is given by $180\cdot\frac{k-2}{k}$. Therfore, we seek the integer $n$ such that $180\cdot\frac{n-3}{n-1}-180\cdot\frac{n-1}{n+1}=6$. This simplifies to $30 \left( \frac{n - 1}{n + 1} - \frac{n - 3}{n - 1} \right) = 1$, which is actually equivalent to $30 \left( \frac{4}{n^2 - 1} \right) = 1$. Finally, rearranging yields $n^2=121$ so $n=\boxed{\text{(C) } 11}$. $\blacksquare$
 
